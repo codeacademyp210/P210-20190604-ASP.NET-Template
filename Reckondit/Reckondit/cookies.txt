@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.zemez.io	TRUE	/	FALSE	1999999999	__cfduid	dfbba6ea4d9c7e0551c523b21e2f19a701559643879
+

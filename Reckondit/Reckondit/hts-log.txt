@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 04 Jun 2019 14:24:40 at https://livedemo.zemez.io/html/reckondit/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://livedemo.zemez.io/html/reckondit/index.html -O1 "C:\Users\Sattar\Desktop\Reckondit\Reckondit" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:25:30	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/logo-light-282x68.png (from https://livedemo.zemez.io/html/reckondit/index.html)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/icon-1.png (from https://livedemo.zemez.io/html/reckondit/css/style.css)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/icon-2.png (from https://livedemo.zemez.io/html/reckondit/css/style.css)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/icon-3.png (from https://livedemo.zemez.io/html/reckondit/css/style.css)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/icon-4.png (from https://livedemo.zemez.io/html/reckondit/css/style.css)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/icon-5.png (from https://livedemo.zemez.io/html/reckondit/css/style.css)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/images/icon-6.png (from https://livedemo.zemez.io/html/reckondit/css/style.css)
+14:25:34	Error: 	"Not Found" (404) at link https://livedemo.zemez.io/html/reckondit/careers.html (from https://livedemo.zemez.io/html/reckondit/footers.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 54 seconds : 213 links scanned, 204 files written (12451465 bytes overall) [7214562 bytes received at 133603 bytes/sec], 12388185 bytes transferred using HTTP compression in 185 files, ratio 56%, 42.6 requests per connection
+(8 errors, 0 warnings, 0 messages)

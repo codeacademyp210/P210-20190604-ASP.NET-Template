@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  
+<!-- Mirrored from livedemo.zemez.io/html/reckondit/forms.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jun 2019 10:25:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>Forms</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700%7CPlayfair+Display:400,700,700i,900,900i">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <div class="page-loader page-loader-variant-1">
+      <div>
+        <div class="page-loader-body">
+          <div id="spinningSquaresG">
+            <div class="spinningSquaresG" id="spinningSquaresG_1"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_2"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_3"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_4"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_5"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_6"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_7"></div>
+            <div class="spinningSquaresG" id="spinningSquaresG_8"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <header class="page-head">
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-corporate-dark" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-stick-up-clone="false" data-md-stick-up-offset="53px" data-lg-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-inner">
+              <div class="rd-navbar-aside novi-background">
+                <div class="rd-navbar-aside-toggle" data-custom-toggle=".rd-navbar-aside" data-custom-toggle-disable-on-blur="true"><span></span></div>
+                <div class="rd-navbar-aside-content context-dark">
+                  <ul class="rd-navbar-aside-group list-units">
+                    <li>
+                      <div class="unit unit-horizontal unit-spacing-xs">
+                        <div class="unit-left"><span class="novi-icon icon icon-xxs-small icon-primary material-icons-place icon-shift-1 offset-top-2"></span></div>
+                        <div class="unit-body"><a class="link-white-v2 d-inline" href="#">6036 Richmond hwy, Alexandria, VA USA 22303</a></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="unit unit-horizontal unit-spacing-xs">
+                        <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary fa-clock-o offset-top-2"></span></div>
+                        <div class="unit-body">
+                          <p class="text-white">Mon – Sat: 9:00am–18:00pm. Sunday CLOSED</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="unit unit-horizontal unit-spacing-xs">
+                        <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary material-icons-phone icon-shift-2"></span></div>
+                        <div class="unit-body"><a class="link-white-v2" href="tel:#">+1 (409) 987–5874</a></div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="rd-navbar-aside-group">
+                    <ul class="list-inline list-inline-reset">
+                      <li><a class="novi-icon icon icon-round icon-abbey-filled icon-xxs-smallest fa fa-facebook" href="#"></a></li>
+                      <li><a class="novi-icon icon icon-round icon-abbey-filled icon-xxs-smallest fa fa-twitter" href="#"></a></li>
+                      <li><a class="novi-icon icon icon-round icon-abbey-filled icon-xxs-smallest fa fa-google-plus" href="#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="rd-navbar-group rd-navbar-search-wrap novi-background">
+                <div class="rd-navbar-panel">
+                  <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap" data-custom-toggle-disable-on-blur="true"><span></span></button><a class="rd-navbar-brand brand" href="index.html"><img src="images/logo-141x34.png" alt="" width="141" height="34"/></a>
+                </div>
+                <div class="rd-navbar-nav-wrap">
+                  <div class="rd-navbar-nav-inner">
+                    <div class="rd-navbar-search">
+                      <form class="rd-search" action="https://livedemo.zemez.io/html/reckondit/search-results.html" method="GET" data-search-live="rd-search-results-live">
+                        <div class="form-wrap">
+                          <label class="form-label" for="rd-search-form-input">Search...</label>
+                          <input class="form-input" id="rd-search-form-input" type="text" name="s" autocomplete="off">
+                          <div class="rd-search-results-live" id="rd-search-results-live"></div>
+                        </div>
+                        <button class="rd-search-submit" type="submit"></button>
+                      </form>
+                      <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-search-wrap"></button>
+                    </div>
+                          <ul class="rd-navbar-nav">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li><a href="about-us.html">About Us</a>
+                            </li>
+                            <li><a href="services.html">Services</a>
+                              <ul class="rd-navbar-dropdown">
+                                <li><a href="single-service.html">Single service</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li><a href="blog-grid.html">Blog</a>
+                              <ul class="rd-navbar-dropdown">
+                                <li><a href="blog-post.html">Blog post</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Pages</a>
+                              <ul class="rd-navbar-dropdown">
+                                <li><a href="team.html">Team</a>
+                                </li>
+                                <li><a href="team-member.html">Team member</a>
+                                </li>
+                                <li><a href="privacy-policy.html">Privacy policy</a>
+                                </li>
+                                <li><a href="search-results.html">Search results</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li><a href="contact-us.html">Contacts</a>
+                            </li>
+                            <li class="active"><a href="#">Blocks</a>
+                              <ul class="rd-navbar-megamenu">
+                                <li>
+                                  <h6 class="rd-megamenu-header">Elements 1</h6>
+                                  <ul class="rd-navbar-list">
+                                    <li><a href="headers.html">Headers</a></li>
+                                    <li><a href="footers.html">Footers</a></li>
+                                    <li><a href="brands.html">Brands</a></li>
+                                    <li><a href="call-to-action.html">Call to action</a></li>
+                                    <li><a href="features.html">Features</a></li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <h6 class="rd-megamenu-header">Elements 2</h6>
+                                  <ul class="rd-navbar-list">
+                                    <li><a href="forms.html">Forms</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="gallery-album.html">Gallery album</a></li>
+                                    <li><a href="maps.html">Maps</a></li>
+                                    <li><a href="services-page.html">Services page</a></li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <h6 class="rd-megamenu-header">Elements 3</h6>
+                                  <ul class="rd-navbar-list">
+                                    <li><a href="subscribe-forms.html">Subscribe forms</a></li>
+                                    <li><a href="sliders.html">Sliders</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <h6 class="rd-megamenu-header">Blog</h6>
+                                  <ul class="rd-navbar-list">
+                                    <li><a href="blog-grid.html">Blog grid</a></li>
+                                    <li><a href="blog-masonry.html">Blog masonry</a></li>
+                                    <li><a href="blog-classic.html">Blog classic</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="section-30 section-md-40 section-lg-66 section-xl-bottom-90 bg-gray-dark page-title-wrap novi-background custom-bg-image" style="background-image: url(images/bg-image-1.jpg);">
+        <div class="container">
+          <div class="page-title">
+            <h2>Forms</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-60 section-md-top-90 section-md-bottom-100">
+        <div class="container">
+          <div class="row row-fix">
+            <div class="col-lg-9 col-xl-7">
+              <h3>Feedback <span class="text-thin">Form</span></h3>
+              <form class="rd-mailform form-modern" data-form-output="form-output-global" data-form-type="contact" method="post" action="https://livedemo.zemez.io/html/reckondit/bat/rd-mailform.php">
+                <div class="row row-30 row-fix">
+                  <div class="col-md-5">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-name" type="text" name="name" data-constraints="@Required">
+                      <label class="form-label" for="feedback-name">Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-email" type="email" name="email" data-constraints="@Email @Required">
+                      <label class="form-label" for="feedback-email">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-date" type="text" name="date" data-constraints="@Required" data-time-picker="date">
+                      <label class="form-label" for="feedback-date">Date</label>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-time" type="text" name="time" data-constraints="@Required" data-time-picker="time">
+                      <label class="form-label" for="feedback-time">Time Interval</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-wrap">
+                      <div class="textarea-lined-wrap">
+                        <textarea class="form-input" id="feedback-message" name="message" data-constraints="@Required"></textarea>
+                        <label class="form-label" for="feedback-message">Message</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-8">
+                    <button class="btn btn-primary btn-block" type="submit">Send</button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="btn btn-silver-outline btn-block" type="reset">Reset</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-35 section-md-75 section-xl-100 bg-whisper-lighten">
+        <div class="container">
+          <div class="row row-fix">
+            <div class="col-lg-9 col-xl-6">
+              <h3>Feedback <span class="text-thin">Form 2</span></h3>
+              <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="https://livedemo.zemez.io/html/reckondit/bat/rd-mailform.php">
+                <div class="row row-30 row-fix">
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-2-first-name" type="text" name="first-name" data-constraints="@Required">
+                      <label class="form-label" for="feedback-2-first-name">First Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-2-last-name" type="text" name="last-name" data-constraints="@Required">
+                      <label class="form-label" for="feedback-2-last-name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-2-email" type="email" name="email" data-constraints="@Email @Required">
+                      <label class="form-label" for="feedback-2-email">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="feedback-2-phone" type="text" name="phone" data-constraints="@Numeric @Required">
+                      <label class="form-label" for="feedback-2-phone">Phone</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-wrap">
+                      <textarea class="form-input" id="feedback-2-message" name="message" data-constraints="@Required"></textarea>
+                      <label class="form-label" for="feedback-2-message">Message</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <button class="btn btn-primary-outline btn-block" type="submit">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-60 section-md-top-90 section-md-bottom-100 novi-background bg-cover">
+        <div class="container">
+          <div class="row row-fix justify-content-sm-center justify-content-lg-start row-50">
+            <div class="col-lg-7 col-xl-6">
+              <h3>Get in <span class="text-thin">Touch</span></h3>
+              <form class="rd-mailform form-modern" data-form-output="form-output-global" data-form-type="contact" method="post" action="https://livedemo.zemez.io/html/reckondit/bat/rd-mailform.php">
+                <div class="row row-fix row-30">
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                      <label class="form-label" for="contact-name">Name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                      <label class="form-label" for="contact-email">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="form-wrap">
+                      <div class="textarea-lined-wrap">
+                        <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                        <label class="form-label" for="contact-message">Message</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-8">
+                    <button class="btn btn-primary btn-block" type="submit">Send</button>
+                  </div>
+                  <div class="col-sm-4">
+                    <button class="btn btn-silver-outline btn-block" type="reset">Reset</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-xl-1 d-none d-xl-inline-block"></div>
+            <div class="col-lg-5 col-xl-4">
+              <div class="row row-40">
+                <div class="col-md-10 col-lg-12">
+                  <h3>How to <span class="text-thin">Find Us</span></h3>
+                  <p class="text-secondary">
+                    If you have any questions, just fill in the contact form, and we will answer you shortly. If you are living nearby, come visit us.
+                    
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-12">
+                  <h4>Headquarters</h4>
+                  <address class="contact-info">
+                    <p class="text-uppercase">9863 - 9867 MILL ROAD, CAMBRIDGE, MG09 99HT.</p>
+                    <dl class="list-terms-inline">
+                      <dt>Telephone</dt>
+                      <dd><a class="link-secondary" href="tel:#">+1 800 603 6035</a></dd>
+                    </dl>
+                    <dl class="list-terms-inline">
+                      <dt>E-mail</dt>
+                      <dd><a class="link-primary" href="https://livedemo.zemez.io/cdn-cgi/l/email-protection#82a1"><span class="__cf_email__" data-cfemail="cda0aca4a18da9a8a0a2a1a4a3a6e3a2bfaa">[email&#160;protected]</span></a></dd>
+                    </dl>
+                  </address>
+                </div>
+                <div class="col-md-6 col-lg-12">
+                  <h4>Support Centre</h4>
+                  <address class="contact-info">
+                    <p class="text-uppercase">9870 ST VINCENT PLACE, GLASGOW, DC 45 FR 45</p>
+                    <dl class="list-terms-inline">
+                      <dt>Telephone</dt>
+                      <dd><a class="link-secondary" href="tel:#">+1 800 603 6035</a></dd>
+                    </dl>
+                    <dl class="list-terms-inline">
+                      <dt>E-mail</dt>
+                      <dd><a class="link-primary" href="https://livedemo.zemez.io/cdn-cgi/l/email-protection#3516"><span class="__cf_email__" data-cfemail="731e121a1f3317161e1c1f1a1d185d1c0114">[email&#160;protected]</span></a></dd>
+                    </dl>
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page-foot bg-cape-cod context-dark novi-background bg-cover">
+        <div class="section-40 section-md-75">
+          <div class="container">
+            <div class="row row-fix justify-content-sm-center">
+              <div class="col-sm-9 col-md-11 col-xl-12">
+                <div class="row row-50">
+                  <div class="col-md-6 col-lg-10 col-xl-3">
+                    <div class="inset-xl-right-20" style="max-width: 510px;"><a class="brand brand-inverse" href="index.html"><img src="images/logo-light-282x68.html" alt="" width="282" height="68"/></a>
+                      <p class="text-dusty-gray">Reckondit delivers environment through which high-quality firms from diverse backgrounds can work together toward their own common goals.</p>
+                      <div class="link-block"><a class="text-small-16 text-medium" href="contact-us.html">Free Consultation</a></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <h6 class="text-small-16 text-uppercase footer-title">Recent Posts</h6>
+                    <div class="post-preview-wrap">
+                            <article class="post post-preview post-preview-inverse offset-top-22"><a href="blog-post.html">
+                                <div class="unit unit-horizontal unit-spacing-lg">
+                                  <div class="unit-left">
+                                    <figure class="post-image"><img src="images/post-preview-1-70x70.jpg" alt="" width="70" height="70"/>
+                                    </figure>
+                                  </div>
+                                  <div class="unit-body">
+                                    <div class="post-header">
+                                      <p>Top 3 Concerns Whe Choosing a Cloud Vendor</p>
+                                    </div>
+                                    <div class="post-meta">
+                                      <ul class="list-meta">
+                                        <li>
+                                          <time datetime="2018-12-23">June 23, 2018</time>
+                                        </li>
+                                        <li>4 Comment</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div></a></article>
+                            <article class="post post-preview post-preview-inverse offset-top-22"><a href="blog-post.html">
+                                <div class="unit unit-horizontal unit-spacing-lg">
+                                  <div class="unit-left">
+                                    <figure class="post-image"><img src="images/post-preview-2-70x70.jpg" alt="" width="70" height="70"/>
+                                    </figure>
+                                  </div>
+                                  <div class="unit-body">
+                                    <div class="post-header">
+                                      <p>Audit Data Analytics: Why Auditors Should Care</p>
+                                    </div>
+                                    <div class="post-meta">
+                                      <ul class="list-meta">
+                                        <li>
+                                          <time datetime="2018-12-23">June 20, 2018</time>
+                                        </li>
+                                        <li>4 Comment</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div></a></article>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <h6 class="text-small-16 text-uppercase footer-title">Quick links</h6>
+                    <div class="row row-fix" style="max-width: 270px;">
+                      <div class="col-6">
+                        <ul class="list-marked-variant-2">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="blog-classic.html">Blog</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <ul class="list-marked-variant-2">
+                          <li><a href="about-us.html">About us</a></li>
+                          <li><a href="contact-us.html">Contacts</a></li>
+                          <li><a href="team.html">Team</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                    <h6 class="text-small-16 text-uppercase footer-title">Contact us</h6>
+                    <address class="contact-info text-left">
+                      <div class="unit unit-horizontal unit-spacing-md align-items-center">
+                        <div class="unit-left"><span class="novi-icon icon icon-xs icon-dusty-gray material-icons-phone"></span></div>
+                        <div class="unit-body"><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                      </div>
+                      <div class="unit unit-horizontal unit-spacing-md align-items-center">
+                        <div class="unit-left"><span class="novi-icon icon icon-xs icon-dusty-gray fa fa-envelope-o"></span></div>
+                        <div class="unit-body"><a class="link-white" href="https://livedemo.zemez.io/cdn-cgi/l/email-protection#7457"><span class="__cf_email__" data-cfemail="86efe8e0e9c6e2e3ebe9eaefe8eda8e9f4e1">[email&#160;protected]</span></a></div>
+                      </div>
+                      <div class="unit unit-horizontal unit-spacing-md">
+                        <div class="unit-left"><span class="novi-icon icon icon-xs icon-dusty-gray material-icons-place"></span></div>
+                        <div class="unit-body"><a class="link-white d-inline" href="#">6036 Richmond hwy,<br>Alexandria, VA USA 22303</a></div>
+                      </div>
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <hr class="hr bg-abbey-04">
+        </div>
+        <div class="section-35">
+          <div class="container text-center">
+            <div class="row row-fix flex-md-row-reverse justify-content-md-between align-items-md-center row-15">
+              <div class="col-md-6 text-md-right">
+                <div class="group-sm group-middle">
+                  <p class="font-italic text-white">Follow Us:</p>
+                  <ul class="list-inline list-inline-reset">
+                    <li><a class="novi-icon icon icon-round icon-abbey-filled icon-xxs-smallest fa fa-facebook" href="#"></a></li>
+                    <li><a class="novi-icon icon icon-round icon-abbey-filled icon-xxs-smallest fa fa-twitter" href="#"></a></li>
+                    <li><a class="novi-icon icon icon-round icon-abbey-filled icon-xxs-smallest fa fa-google-plus" href="#"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 offset-top-15 offset-sm-top-0 text-md-left">
+                <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>Reckondit.&nbsp;</span><a class="link-white-v2" href="privacy-policy.html">Privacy Policy</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+<a class="builder-button" href="http://ld-wp2.template-help.com/novi-builder/prod-18364tf/" target="_blank"><img src="images/novi-icon-26x26.png" alt="" width="26" height="26"/>Try builder</a>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
+<!-- Mirrored from livedemo.zemez.io/html/reckondit/forms.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Jun 2019 10:25:20 GMT -->
+</html>
